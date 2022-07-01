@@ -27,6 +27,9 @@ ul {
   list-style: none;
   padding: 0;
 }
+.mt-64 {
+  margin-top: 64px;
+}
 .header,
 .container {
   padding: 43px 260px;
@@ -88,7 +91,7 @@ ul {
   color: #333533;
 }
 nav {
-  width: 300px;
+  width: 250px;
 }
 nav ul {
   font-size: 24px;
@@ -124,6 +127,8 @@ ul li .marker i {
 .sections {
   width: 650px;
   margin-top: 6px;
+  border-left: 1px solid #333533;
+  padding-left: 50px;
 }
 
 .contact {
@@ -202,4 +207,34 @@ ul li .marker i {
 
 .socials li.whatsapp:hover {
   background-image: url("../icons/social/whatsapp-hover.png");
+}
+
+.skills li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #a0a0a0;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 10px 24px;
+}
+.skills .title {
+  font-weight: 500;
+}
+.skills li i {
+  padding: 10px 12px;
+  border-left: 1px solid #d6d6d6;
+}
+
+.skills li img {
+  margin-right: 6px;
+  vertical-align: middle;
+}
+.other-skills li {
+  border: 1px solid #a0a0a0;
+  border-radius: 24px;
+  display: inline-block;
+  padding: 4px 16px;
+  margin: 0px 16px 18px 0px;
 }
