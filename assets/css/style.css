@@ -1,12 +1,31 @@
 * {
   font-family: "Poppins", sans-serif;
+  transition: all 0.3s;
 }
 body {
   margin: 0;
   padding: 0;
+  font-size: 18px;
+}
+p {
+  line-height: 1.7;
+  letter-spacing: 0.9px;
 }
 a {
   text-decoration: none;
+}
+i {
+  display: inline-block;
+}
+h5 {
+  color: #a0a0a0;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+ul {
+  list-style: none;
+  padding: 0;
 }
 .header,
 .container {
@@ -57,7 +76,11 @@ a {
   border-radius: 4px;
   text-align: center;
   color: #ffd100;
-  display: inline-block;
+}
+
+.button.outline:hover {
+  background-color: #ffd100;
+  color: #333533;
 }
 
 .container {
@@ -68,9 +91,7 @@ nav {
   width: 300px;
 }
 nav ul {
-  list-style: none;
   font-size: 24px;
-  padding: 0;
 }
 nav ul li:not(:last-child):after {
   content: "";
@@ -102,4 +123,83 @@ ul li .marker i {
 }
 .sections {
   width: 650px;
+  margin-top: 6px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contact div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.contact p {
+  margin-top: 0;
+}
+.contact p i {
+  margin-left: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #a0a0a0;
+}
+.socials li {
+  display: inline-block;
+  margin-right: 24px;
+  height: 56px;
+  width: 56px;
+  background-size: cover;
+  cursor: pointer;
+}
+.socials li.github {
+  background-image: url("../icons/social/github.png");
+}
+
+.socials li.github:hover {
+  background-image: url("../icons/social/github-hover.png");
+}
+
+.socials li.instagram {
+  background-image: url("../icons/social/instagram.png");
+}
+
+.socials li.instagram:hover {
+  background-image: url("../icons/social/instagram-hover.png");
+}
+.socials li.linkedin {
+  background-image: url("../icons/social/linkedin.png");
+}
+
+.socials li.linkedin:hover {
+  background-image: url("../icons/social/linkedin-hover.png");
+}
+.socials li.stackoverflow {
+  background-image: url("../icons/social/stackoverflow.png");
+}
+
+.socials li.stackoverflow:hover {
+  background-image: url("../icons/social/stackoverflow-hover.png");
+}
+.socials li.telegram {
+  background-image: url("../icons/social/telegram.png");
+}
+
+.socials li.telegram:hover {
+  background-image: url("../icons/social/telegram-hover.png");
+}
+.socials li.twitter {
+  background-image: url("../icons/social/twitter.png");
+}
+
+.socials li.twitter:hover {
+  background-image: url("../icons/social/twitter-hover.png");
+}
+.socials li.whatsapp {
+  background-image: url("../icons/social/whatsapp.png");
+}
+
+.socials li.whatsapp:hover {
+  background-image: url("../icons/social/whatsapp-hover.png");
 }
