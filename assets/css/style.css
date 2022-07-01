@@ -75,10 +75,34 @@ ul {
 
 .button {
   padding: 8px 24px;
-  border: 2px solid #ffd100;
+  border: 1px solid #ffd100;
   border-radius: 4px;
   text-align: center;
   color: #ffd100;
+}
+
+.button.ghost {
+  padding: 4px 8px;
+  border: none;
+  text-align: center;
+  color: #333533;
+  border: 1px solid transparent;
+}
+
+.button.ghost:hover {
+  border-color: #333533;
+}
+
+.button.outline.dark {
+  padding: 4px 8px;
+  background-color: #fff;
+  border-color: #333533;
+  color: #333533;
+}
+.button.outline.dark:hover {
+  background-color: #333533;
+  border-color: #333533;
+  color: #fff;
 }
 
 .button.outline:hover {
@@ -95,6 +119,9 @@ nav {
 }
 nav ul {
   font-size: 24px;
+}
+nav ul li {
+  cursor: pointer;
 }
 nav ul li:not(:last-child):after {
   content: "";
@@ -117,7 +144,8 @@ ul li .marker {
 ul li.active {
   font-weight: 500;
 }
-ul li.active .marker {
+ul li.active .marker,
+nav ul li:hover .marker {
   background-color: #333533;
   color: #ffd100;
 }
@@ -125,12 +153,14 @@ ul li .marker i {
   font-size: 22px;
 }
 .sections {
-  width: 650px;
+  width: 700px;
   margin-top: 6px;
   border-left: 1px solid #333533;
   padding-left: 50px;
 }
-
+.sections section:last-child {
+  width: 880px;
+}
 .contact {
   display: flex;
   flex-direction: row;
@@ -149,6 +179,9 @@ ul li .marker i {
   font-size: 16px;
   cursor: pointer;
   color: #a0a0a0;
+}
+.contact p i:hover {
+  color: #333533;
 }
 .socials li {
   display: inline-block;
@@ -237,4 +270,68 @@ ul li .marker i {
   display: inline-block;
   padding: 4px 16px;
   margin: 0px 16px 18px 0px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.project {
+  border: 1px solid #a0a0a0;
+  border-radius: 8px;
+  padding: 11px;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-bottom: 36px;
+}
+.project:not(:last-child) {
+  margin-right: 20px;
+}
+.project .title {
+  margin-top: 12px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.project .description {
+  font-size: 14px;
+}
+.tech {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.tech span {
+  font-size: 14px;
+  font-weight: 500;
+}
+.tech ul {
+  margin: 0;
+}
+.tech ul li {
+  display: inline-block;
+}
+.tech img {
+  width: 25px;
+}
+.project .buttons {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 13px;
+}
+.project .buttons i {
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 5px;
+}
+.project .buttons a {
+  display: inline-block;
+  width: 50%;
+}
+.project .buttons a:first-child {
+  margin-right: 4px;
 }
