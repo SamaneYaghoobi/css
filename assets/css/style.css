@@ -32,7 +32,7 @@ ul {
 }
 .header,
 .container {
-  padding: 43px 260px;
+  padding: 45px 0;
   justify-content: center;
   display: flex;
   flex-direction: row;
@@ -50,7 +50,7 @@ ul {
 }
 
 .header .title {
-  margin-left: 50px;
+  margin: 0 50px;
   color: #ffd100;
 }
 
@@ -79,7 +79,20 @@ ul {
   border-radius: 4px;
   text-align: center;
   color: #ffd100;
+  display: inline-block;
 }
+
+.button.icon i {
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.button.small.icon i {
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 5px;
+} 
 
 .button.ghost {
   padding: 4px 8px;
@@ -93,27 +106,46 @@ ul {
   border-color: #333533;
 }
 
+.button.outline:hover {
+  background-color: #ffd100;
+  color: #333533;
+}
+
 .button.outline.dark {
   padding: 4px 8px;
   background-color: #fff;
   border-color: #333533;
   color: #333533;
 }
+
 .button.outline.dark:hover {
   background-color: #333533;
   border-color: #333533;
   color: #fff;
 }
 
-.button.outline:hover {
-  background-color: #ffd100;
-  color: #333533;
+.button.lang{
+  align-self: flex-start;
+  opacity: 0.7;
+  padding: 4px 8px;
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+  font-size: 12px;
+}
+
+.button.lang:hover {
+  background-color: transparent;
+  opacity: 1;
+  border-color: #fff;
+  color: #fff;
 }
 
 .container {
   align-items: flex-start;
   color: #333533;
 }
+
 nav {
   width: 250px;
 }
