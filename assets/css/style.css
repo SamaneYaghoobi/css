@@ -102,6 +102,18 @@ ul {
   margin-right: 5px;
 }
 
+.button.icon i {
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.button.small.icon i {
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 5px;
+} 
+
 .button.ghost {
   padding: 4px 8px;
   border: none;
@@ -133,6 +145,7 @@ ul {
 }
 
 .button.lang {
+.button.lang{
   align-self: flex-start;
   opacity: 0.7;
   padding: 4px 8px;
