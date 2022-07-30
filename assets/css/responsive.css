@@ -1,0 +1,73 @@
+@media (max-width: 991.98px) {
+  h5,
+  body {
+    font-size: 16px;
+  }
+  .header,
+  .container {
+    padding: 0;
+  }
+  hr {
+    display: inline-block;
+    width: 90%;
+  }
+  .header {
+    height: auto;
+  }
+  .header img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 75px;
+  }
+  .header .title {
+    margin: 0;
+    margin-top: 150px;
+    text-align: center;
+    width: 100%;
+    padding: 100px 20px 20px;
+    background-color: #fff;
+  }
+  .header .title,
+  .title .button,
+  .title .position,
+  .title .position i {
+    color: #333533;
+  }
+  .header .title h1 {
+    font-size: 36px;
+  }
+  .title .position {
+    font-size: 24px;
+    margin: 30px 0;
+  }
+  .title .button {
+    border: 1px solid #333533;
+    width: 100%;
+    padding: 8px 0;
+  }
+  .button.lang {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  nav {
+    display: none;
+  }
+  .sections,
+  .sections section:last-child {
+    width: auto;
+    padding: 0;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
