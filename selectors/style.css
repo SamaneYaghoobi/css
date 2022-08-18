@@ -1,0 +1,39 @@
+h3 {
+  color: gray;
+}
+
+.language {
+  font-size: 18px;
+}
+
+#target {
+  color: purple;
+}
+
+#target::before {
+  content: "㋡ ";
+}
+
+a[href="#"] img {
+  width: 80px;
+}
+
+.imgs-list li:first-child img {
+  width: 50px;
+}
+
+.imgs-list a:hover img {
+  width: 25px;
+}
+
+.language > li {
+  color: green;
+}
+
+.language ol + li {
+  color: orange;
+}
+
+.language ol ~ li {
+  color: brown;
+}
