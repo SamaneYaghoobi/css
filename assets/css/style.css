@@ -4,6 +4,7 @@
 }
 html,
 body {
+  background-color: #f5f5f5;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -70,7 +71,7 @@ ul {
 }
 
 .title .position {
-  color: #fff;
+  color: #fafafa;
   font-size: 32px;
   margin: 40px 0;
   font-weight: 400;
@@ -133,7 +134,7 @@ ul {
 
 .button.outline.dark {
   padding: 4px 8px;
-  background-color: #fff;
+  background-color: #fafafa;
   border-color: #333533;
   color: #333533;
 }
@@ -141,7 +142,7 @@ ul {
 .button.outline.dark:hover {
   background-color: #333533;
   border-color: #333533;
-  color: #fff;
+  color: #fafafa;
 }
 
 .button.lang {
@@ -149,16 +150,16 @@ ul {
   opacity: 0.7;
   padding: 4px 8px;
   background-color: transparent;
-  border-color: #fff;
-  color: #fff;
+  border-color: #fafafa;
+  color: #fafafa;
   font-size: 12px;
 }
 
 .button.lang:hover {
   background-color: transparent;
   opacity: 1;
-  border-color: #fff;
-  color: #fff;
+  border-color: #fafafa;
+  color: #fafafa;
 }
 
 .container {
