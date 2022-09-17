@@ -298,7 +298,7 @@ ul li .marker i {
 	background-image: url("../icons/social/whatsapp-hover.png");
 }
 
-.skills li {
+#skills li {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -308,15 +308,15 @@ ul li .marker i {
 	margin-bottom: 20px;
 	padding: 10px 24px;
 }
-.skills .title {
+#skills .title {
 	font-weight: 500;
 }
-.skills li i {
+#skills li i {
 	padding: 10px 12px;
 	border-left: 1px solid #d6d6d6;
 }
 
-.skills li img {
+#skills li img {
 	margin-right: 6px;
 	vertical-align: middle;
 }
@@ -391,6 +391,6 @@ ul li .marker i {
 .project .buttons a:first-child {
 	margin-right: 4px;
 }
-.sections section.skills h4:first-child {
+.sections section#skills h4:first-child {
 	display: none;
 }
