@@ -166,7 +166,9 @@ ul {
 	align-items: flex-start;
 	color: #333533;
 }
-
+.mobile-nav {
+	display: none;
+}
 .container nav {
 	width: 250px;
 }

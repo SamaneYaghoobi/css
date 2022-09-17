@@ -102,6 +102,33 @@
 		margin-right: 0 !important;
 		margin-left: 0 !important;
 	}
+	.mobile-nav {
+		display: block;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		background-color: #333533;
+		color: #fafafa;
+		font-size: 15px;
+	}
+	.mobile-nav ul {
+		display: flex;
+		margin: 0;
+		justify-content: space-between;
+	}
+	.mobile-nav ul li {
+		padding-top: 15px;
+		padding-bottom: 15px;
+		width: 100%;
+		text-align: center;
+	}
+	.mobile-nav ul li i {
+		margin-right: 5px;
+	}
+	.mobile-nav ul li.active {
+		color: #ffd100;
+		border-bottom: 4px solid #ffd100;
+	}
 }
 
 /* Large devices (desktops, less than 1200px) */
