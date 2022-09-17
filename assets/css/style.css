@@ -167,16 +167,16 @@ ul {
 	color: #333533;
 }
 
-nav {
+.container nav {
 	width: 250px;
 }
-nav ul {
+.container nav ul {
 	font-size: 24px;
 }
-nav ul li {
+.container nav ul li {
 	cursor: pointer;
 }
-nav ul li:not(:last-child)::after {
+.container nav ul li:not(:last-child)::after {
 	content: "";
 	display: block;
 	border-left: 1px dashed #333533;
@@ -198,7 +198,7 @@ ul li.active {
 	font-weight: 500;
 }
 ul li.active .marker,
-nav ul li:hover .marker {
+.container nav ul li:hover .marker {
 	background-color: #333533;
 	color: #ffd100;
 }
