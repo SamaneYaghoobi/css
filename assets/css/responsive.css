@@ -85,6 +85,9 @@
   .sections section#skills ul:not(:last-child) {
     margin-bottom: 60px;
   }
+  .contact {
+    flex-wrap: wrap;
+  }
   .contact div {
     width: 100%;
   }
