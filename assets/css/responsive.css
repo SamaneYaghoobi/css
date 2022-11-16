@@ -12,24 +12,7 @@
     padding: 0;
     position: relative;
   }
-  .header::after {
-    content: "";
-    position: absolute;
-    height: 1px;
-    background-color: #d9d9d9;
-    bottom: 0;
-    width: 90%;
-    margin: auto;
-  }
-  .sections {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-  .sections section {
-    border-bottom: 1px solid #d9d9d9;
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
+
   .header {
     height: auto;
   }
@@ -76,11 +59,20 @@
   nav {
     display: none;
   }
+  .sections {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .sections section {
+    border-top: 1px solid #d9d9d9;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   .sections,
   .sections section:last-child {
     margin: 0;
     width: auto;
-    border: none;
+    border-left: none;
   }
   .sections section h4 {
     margin-top: 0;
